@@ -1,2 +1,2 @@
-# google-clone
+# Google Clone
 Proyecto: Clon de Google
