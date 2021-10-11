@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%; 
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+}
+header nav .nav-right-section {
+     width: 250px;
+     height: 48px;
+     display: flex;
+     list-style: none;
+     justify-content: space-around;
+     align-items: center;
+}
+nav .nav-right-section {
+
+}
+nav .nav-right-section a {
+    color: #000000;
+}
+nav .nav-right-section .menu-icon a img{
+    width: 16px;
+    height: 16px;
+    opacity: .6;
+}
+nav .nav-right-section .img-profile a img {
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img {
+    width: 250px;
+}
+
+main .main-input {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 97%;
+    max-width: 540px;
+    margin: auto;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    opacity: .45;
+}
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer; 
+}
+
+main .main-buttons {
+    width: 80%;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+main .main-buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    color: #222;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: solid 1px #dadce0;
+    padding: 0 20px;
+}
+footer ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self: right;
+}
+footer ul li {
+    padding: 15px;
+}
+footer ul li a {
+    color: #5f6368;
+}
+
+@media only screen and (max-width: 1200px) {
+    footer {
+        justify-content: space-evenly;
+    }
+}
