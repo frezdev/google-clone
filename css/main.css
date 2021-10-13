@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -31,9 +35,12 @@ header nav .nav-right-section {
      justify-content: space-around;
      align-items: center;
 }
+/*
 nav .nav-right-section {
 
 }
+*/
+
 nav .nav-right-section a {
     color: #000000;
 }
@@ -56,7 +63,7 @@ main .main-logo {
     margin-bottom: 35px;
 }
 main .main-logo img {
-    width: 250px;
+    width: 25rem;
 }
 
 main .main-input {
@@ -140,6 +147,7 @@ footer {
     background-color: #f2f2f2;
     border-top: solid 1px #dadce0;
     padding: 0 20px;
+    margin-top: 50px;
 }
 footer ul {
     margin: 0;
@@ -162,6 +170,12 @@ footer ul li {
 }
 footer ul li a {
     color: #5f6368;
+}
+
+@media only screen and (max-width: 700px) {
+    footer {
+        position: relative;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
